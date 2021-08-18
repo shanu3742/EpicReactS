@@ -4,6 +4,7 @@ import * as React from 'react'
 import ReactDOM from 'react-dom'
 
 function App() {
+
   function search(nameKey, myArray){
     for (var i=0; i < myArray.length; i++) {
         if (myArray[i].name === nameKey) {
